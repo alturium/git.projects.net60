@@ -3,3 +3,5 @@
 improvements made to this library, try merging to projects.net45
 
 more improvements made
+
+made 6.0 change, make sure this doesn't get into master, but keep in develop.net60 branch for git.library.net!s
