@@ -5,9 +5,12 @@
 :: ADDED PULL FROM branch develop.net60
 
 git remote add library https://github.com/alturium/git.library.net.git
-git fetch library
-git checkout -b library/develop.net60
+git pull library develop.net60
+::git checkout -b library/develop.net60
 git merge --allow-unrelated-histories library
 git remote remove library
+
+@echo use git checkout --patch master <filename> to manually edit merge (sort of cherry picking), but this uses the vim editor which can be a pain
+@echo see http://nuclearsquid.com/writings/git-add/
 
 pause
