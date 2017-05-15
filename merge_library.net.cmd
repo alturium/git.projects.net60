@@ -12,7 +12,7 @@ git remote remove library
 
 @echo Check if on correct branch (master or develop) and perform:
 @echo (because library merge is in local repository, ready to push and may not show on >git status!
-@echo git push -u origin master
+@echo >git push -u origin master
 
 @echo use git checkout --patch master <filename> to manually edit merge (sort of cherry picking), but this uses the vim editor which can be a pain
 @echo see http://nuclearsquid.com/writings/git-add/
